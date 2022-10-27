@@ -1,0 +1,154 @@
+body {
+  margin: 0 auto;
+  background-color: hsl(240, 100%, 5%);
+  width: 70%;
+  font-family: 'Inter', sans-serif;
+  color: hsl(233, 8%, 79%);
+  font-size: .7rem;
+  line-height: 2,
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  font-size: .75rem;
+  color: hsl(233, 8%, 79%);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+hr {
+  border-bottom: 0;
+}
+
+.container {
+  padding: 50px 100px;
+  background-color: hsl(36, 100%, 99%);
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.menu {
+  position: absolute;
+  right: 310px;
+  display: inline-block;
+}
+
+.menu ul {
+  position: relative;
+  bottom: 5px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.section-one {
+  width: 65%;
+  display: inline-block;
+}
+
+.caption {
+  color: hsl(240, 100%, 5%);
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+.paragraph {
+  margin: 30px 0 0 0;
+}
+
+.paragraph p {
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: hsl(5, 85%, 63%);
+  padding: 10px 20px;
+  color: hsl(36, 100%, 99%);
+}
+
+.section-two {
+  position: absolute;
+  background-color: hsl(240, 100%, 5%);
+  right: 0;
+  top: 0;
+  width: 27%;
+  padding: 10px 20px;
+}
+
+.section-two h1 {
+  color: hsl(35, 77%, 62%);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.update-heading {
+  font-weight: bold;
+}
+
+.update-paragraph {
+  line-height: 1.7;
+  font-size: .7rem;
+}
+
+.bottom {
+  width: 100%;
+  position: relative;
+  margin: 20px auto;
+}
+
+.post {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.post img {
+  width: 30%;
+}
+
+.bottom-post {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 63%;
+  margin-left: 10px;
+}
+
+.bottom-number {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  padding: 0;
+}
+
+.bottom-heading {
+  margin: 5px auto;
+  color: hsl(240, 100%, 5%);
+  line-height: 1.7;
+}
+
+.divider {
+  display: inline-block;
+  width: 4%;
+}
